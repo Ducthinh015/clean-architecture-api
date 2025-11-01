@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
         <ProjectReference Include="..\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj"/>
         <ProjectReference Include="..\CleanArchitecture.Proto\CleanArchitecture.Proto.csproj"/>
         <ProjectReference Include="..\CleanArchitecture.Shared\CleanArchitecture.Shared.csproj"/>
